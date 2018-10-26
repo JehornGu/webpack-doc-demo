@@ -1,0 +1,19 @@
+{
+  "name": "demo-webpack-doc",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
