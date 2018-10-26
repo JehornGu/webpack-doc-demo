@@ -1,3 +1,4 @@
 .hello {
     color: #f00;
+    background: url('./user-img-gril.jpg') no-repeat center/cover;
 }
