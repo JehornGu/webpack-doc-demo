@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Img from './user-img-gril.jpg';
+import Data from './data.xml'
 
 function component() {
     var element = document.createElement('div');
@@ -14,6 +15,8 @@ function component() {
     img.src = Img;
 
     element.appendChild(img);
+
+    console.log(Data);
 
     return element;
 }
