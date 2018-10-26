@@ -12,6 +12,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     devtool: 'inline-source-map',
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        port: 9000,
+        compress: true
+    },
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
